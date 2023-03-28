@@ -1,0 +1,202 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  display: flex;
+  margin-top: .5rem;
+}
+
+.navbar .logo {
+  width: auto;
+  height: 3rem;
+}
+
+.form {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  border-radius: 60px;
+  border: 1px solid lightgray;
+  height: 3rem;
+}
+
+.searchBar {
+  width: 100%;
+  border: none;
+  height: 50%;
+  margin: auto 1.25rem;
+  font-size: 1rem;
+}
+
+.fa-xmark {
+  margin: auto .75rem;
+  font-size: 1.15rem;
+}
+
+.form .hr-1 {
+  transform: rotate(180deg);
+  background-color: lightgray;
+  width: 1px;
+  border: none;
+}
+
+button {
+  background-color: white; 
+  border: none;
+}
+
+.mic {
+  height: auto;
+  width: 95%;
+}
+
+.glass {
+  margin-right: 1.5rem;
+  font-size: 1rem;
+  color: #4285F4;
+}
+
+.top-right {
+  display: flex;
+}
+
+.round {
+  width: 1.8rem;
+  margin-right: 1.25rem;
+}
+
+.fa-circle-user {
+  font-size: 2rem;
+  margin: auto;
+}
+
+.container-1 {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: .85rem;
+  margin-top: 1rem;
+}
+
+.icon-top {
+  display: flex;
+  justify-content: center;
+}
+
+.top-icon {
+  margin: auto .45rem;
+}
+
+.horizontal {
+  display: flex;
+}
+
+.horizontal > p {
+  margin-right: 2rem;
+}
+
+.left {
+  border-bottom: 2px solid #4285F4;
+}
+
+.first {
+  color: #4285F4;
+}
+
+.right {
+  margin-left: 3rem;
+}
+
+.far-right {
+  margin-left: 1rem;
+}
+
+.hr-2 {
+  background-color: lightgray;
+  border: none;
+  height: 1px;
+  margin-top: 0;
+}
+
+.container-2 {
+  width: 46rem;
+  margin: auto;
+}
+
+.url-results {
+  display: flex;
+  align-items: center;
+}
+
+.url-results i {
+  margin-left: 1rem;
+}
+
+.url-results p {
+  margin: 0;
+}
+
+.results h3 {
+  color: #4285F4;
+  margin-top: 0;
+}
+
+.results > p {
+  margin-bottom: 3rem;
+}
+
+.people-ask {
+  border: 1px solid darkgray;
+  border-radius: 10px;
+  
+}
+
+.people-ask > p {
+  margin: 0;
+  padding: 0;
+}
+
+.people-ask h2, .people-ask .row {
+  margin-left: 1rem;
+} 
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row i {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 1rem;
+}
+
+.row-bottom, .row-bottom p {
+  margin-top: 0;
+  margin-bottom: 3rem;
+  padding: 0;
+}
+
+.row-bottom p {
+  text-align: right;
+
+}
