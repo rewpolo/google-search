@@ -198,5 +198,19 @@ button {
 
 .row-bottom p {
   text-align: right;
+}
 
+.hr-3 {
+  background-color: darkgray;
+  height: 1px;
+  border: none;
+}
+
+.bottom {
+  display: flex;
+}
+
+.bottom img {
+  margin: auto;
+  width: 30%;
 }
